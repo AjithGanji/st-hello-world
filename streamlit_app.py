@@ -3,13 +3,15 @@ import streamlit.components.v1 as components
 
 st.header("Resource Adequacy")
 
-# Read the main HTML file
-with open("index.html", 'r', encoding='utf-8') as index_file:
+with open("test.html", 'r', encoding='utf-8') as index_file:
     html_content = index_file.read()
+# # Read the main HTML file
+# with open("index.html", 'r', encoding='utf-8') as index_file:
+#     html_content = index_file.read()
 
-# Read the CSS file for the main HTML
-with open("test.css", 'r', encoding='utf-8') as style_file1:
-    css_content1 = style_file1.read()
+# # Read the CSS file for the main HTML
+# with open("index.css", 'r', encoding='utf-8') as style_file1:
+#     css_content1 = style_file1.read()
 
 # # Read other HTML files referenced in index.html
 # with open("academics.html", 'r', encoding='utf-8') as academics_file:
