@@ -1,0 +1,19 @@
+body {
+    background-color: lightyellow;
+}
+a {
+    color:red
+}
+p {
+    line-height:0px
+}
+footer{
+    bottom:0px;
+    width:100%;
+    position:absolute;
+    text-align:center;
+    font-weight:bold;
+}
+span {
+    color:blue
+}
