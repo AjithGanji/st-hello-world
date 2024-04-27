@@ -1,0 +1,16 @@
+body {
+    background-color: lightyellow;
+}
+a{
+    color:red
+}
+span{
+    color:blue
+}
+footer {
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-weight:bold
+}
