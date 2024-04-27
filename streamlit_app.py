@@ -32,6 +32,8 @@ with open("personal.css", 'r', encoding='utf-8') as style_file4:
 # Concatenate all HTML content
 full_html_content = html_content + academics_html + contacts_html + personal_html
 full_css_content = css_content1 + css_content2 + css_content3 + css_content4
+full_html_content_with_css = f"<style>{full_css_content}</style>{full_html_content}"
+
 
 # Display HTML content along with CSS
-components.html(full_html_content, height=1500, scrolling=True, css=full_css_content)
+components.html(full_html_content_with_css, height=1500, scrolling=True)
