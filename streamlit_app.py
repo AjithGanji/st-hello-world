@@ -34,4 +34,4 @@ full_html_content = html_content + academics_html + contacts_html + personal_htm
 full_css_content = css_content1 + css_content2 + css_content3 + css_content4
 
 # Display HTML content along with CSS
-components.html(full_html_content, height=2000, scrolling=True, css=full_css_content)
+components.html(full_html_content, height=1500, scrolling=True, css=full_css_content)
