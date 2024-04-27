@@ -38,4 +38,5 @@ with open("test.html", 'r', encoding='utf-8') as index_file:
 
 
 # Display HTML content along with CSS
-components.html(full_html_content_with_css, height=1000, scrolling=True)
+# components.html(full_html_content_with_css, height=1000, scrolling=True)
+components.html(html_content, height=1000, scrolling=True)
